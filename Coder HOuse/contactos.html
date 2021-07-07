@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Mi cafetería</title>
+</head>
+
+<body>
+    <!-- Start Top Navbar -->
+    <nav class="menu">
+        <a class="menu__a" href="index.html">Novedades</a>
+        <a class="menu__a" href="nuestrosProductos.html">Nuestros productos</a>
+        <a class="menu__a" href="trabajaConNosotros.html"></a>
+        <a class="menu__a" href="sobreNosotros.html">Sobre nosotros</a>
+        <a class="menu__a" href="contactos.html">Contacto</a>
+    </nav>
+    <!-- End Top Navbar -->
+
+    <h1>Contacto</h1>
+
+    <!--Start Contacto-->
+    <div class="contacto">
+        <form class="contacto__form" action="" method="post">
+            <ul class="contacto__ul">
+                <li>
+                    <label class="contacto__label" for="name">Nombre:</label>
+                    <input class="contacto__text" type="text" class="text" name="user_name" />
+                </li>
+                <li>
+                    <label class="contacto__label" for="mail">Email:</label>
+                    <input class="contacto__text" type="email" class="text" name="user_email" />
+                </li>
+                <li>
+                    <label class="contacto__label" for="genero">Genero:</label>
+                    <input type="radio" name="genero" value="masculino" />Masculino
+                    <input type="radio" name="genero" value="femenino" />Femenino
+                    <input type="radio" name="genero" value="otro" />Otro
+                </li>
+                <li>
+                    <label class="contacto__label" for="genero">Razón:</label>
+                    <select name="Razón">
+                        <option value="1">Feedback</option>
+                        <option value="2">Quejda</option>
+                        <option value="0">Otro</option>
+                    </select>
+                </li>
+                <li>
+                    <label class="contacto__label" for="msg">Mensaje:</label>
+                    <textarea class="contacto__text" rows="4" cols="15" class="text"></textarea>
+                </li>
+                <li>
+                    <button class="contacto__button" type="submit">Envíe su mensaje</button><button type="reset">Borrar</button>
+                </li>
+        </form>
+    </div>
+    <!--End Contacto-->
+
+</body>
+
+</html>
