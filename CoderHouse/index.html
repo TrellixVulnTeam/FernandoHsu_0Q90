@@ -2,31 +2,43 @@
 <html lang="en">
 
 <head>
+    <title>Cueva de Hyonru</title>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css" />
-    <title>Mi cafetería</title>
+    <link href="assets/Hyonru_logo.png" rel="icon" type="image/gif">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
 </head>
 
 <body>
     <!-- Start Top Navbar -->
-    <nav class="menu">
-        <a class="menu__a" href="index.html">Novedades</a>
-        <a class="menu__a" href="nuestrosProductos.html">Nuestros productos</a>
-        <a class="menu__a" href="trabajaConNosotros.html"></a>
-        <a class="menu__a" href="sobreNosotros.html">Sobre nosotros</a>
-        <a class="menu__a" href="contactos.html">Contacto</a>
-    </nav>
+    <header id="header" class="d-flex align-items-center fixed-top">
+        <div class="container d-flex align-items-center justify-content-between col-">
+
+            <a href="index.html" class="logo"><img src="assets/Hyonru_logo.png" alt=""></a>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#">Sobre nosotros</a></li>
+                    <li><a class="nav-link scrollto" href="#">Quiénes somos</a></li>
+                    <li><a class="nav-link scrollto" href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <!-- .navbar -->
+
+        </div>
+    </header>
+
+
+
     <!-- End Top Navbar -->
 
-    <h1>Novedades</h1>
-
-    <div class="slider">
-        <img class="slider__slide1 slide-in-fwd-center" src="assets/banner.jpg" alt="">
-    </div>
 </body>
 
 </html>
